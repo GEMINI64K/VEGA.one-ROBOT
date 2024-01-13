@@ -11,4 +11,3 @@ This project is brocken down into 2 groups. the 3D models for the frame and the 
 
 ![20240102_121024](https://github.com/GEMINI64K/VEGA.one-ROBOT/assets/117120767/436a74ba-1f0e-453a-8ac7-161cecde0c88)
 ![20240102_122109](https://github.com/GEMINI64K/VEGA.one-ROBOT/assets/117120767/d2181f57-0dac-4680-a116-9613b161b03c)
-![20240102_122105](https://github.com/GEMINI64K/VEGA.one-ROBOT/assets/117120767/0afa85dd-2280-4704-8d1e-e0ad40cf9966)
