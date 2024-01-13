@@ -45,8 +45,12 @@ bool servoRunning = false;
 
 Adafruit_PWMServoDriver board1;
 
-const char *ssid = "GalaxyA53";
-const char *password = "Kim1234@@";
+
+////////////////////////////////////////////////////////////////////////////////
+const char *ssid = "Your wifi name";
+const char *password = "your wifi password";
+////////////////////////////////////////////////////////////////////////////////
+
 
 WebServer server(80);
 
@@ -305,9 +309,14 @@ void setup() {
     Serial.println("Connecting to WiFi...");
   }
 
+/////////////////////////////////////////////////////////////////////////////////
+//////////////////once connected to your wifi and your ip address displayed
+//////////////////on the serial monitor, use that address in the "NODE app
+////////////////////////////////////////////////////////////////////////////////
   Serial.println("Connected to WiFi");
   Serial.print("IP Address: ");
   Serial.println(WiFi.localIP());
+/////////////////////////////////////////////////////////////////////////////////
 
   server.on("/", HTTP_GET, handleRoot);
   server.on("/set_servo", HTTP_GET, setServo);
@@ -322,8 +331,8 @@ void setup() {
   tfmP.begin(&tfSerial);  
   delay(10);
 
-   if (tfmP.sendCommand(SET_FRAME_RATE, FRAME_1000)) {
-    printf("%2uHz.\r\n", FRAME_1000);
+   if (tfmP.sendCommand(SET_FRAME_RATE, FRAME_20)) {
+    printf("%2uHz.\r\n", FRAME_20);
   } else {
     tfmP.printReply();
   }
