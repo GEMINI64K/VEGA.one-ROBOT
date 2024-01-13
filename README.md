@@ -6,3 +6,4 @@ The primary goal of this project is to create a dynamic, versatile, visually app
 
 This project is brocken down into 2 groups. the 3D models for the frame and the software that is used to run all the components of the robot.
 
+![today pic](https://github.com/GEMINI64K/VEGA.one-ROBOT/assets/117120767/b24c5154-c89d-4b85-803b-fd7fdfd474e7)
